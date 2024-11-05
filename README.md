@@ -22,12 +22,27 @@ Then, you simply need to import the lib and start asking values:
 27.5
 ```
 
-The list of available parameters is:
+Sample Output
 ```
-battery_volts
-battery_amps
-solar_volts
-solar_power
-device_serial
-device_MPPT_state
+Firmware Version: 159
+Serial Number: HQ2414G4VHA
+Battery Voltage: 13.65 V
+Battery Current: -0.01 A
+Solar Voltage: 0.01 V
+Solar Power: 0.0 W
+State of Operation: Off
+MPPT State: Off
+Off Reasons:
+- No input power
+Error Code: No error
+Load State: ON
+Load Current: 0.0 A
+Total Yield: 0.0 kWh
+Yield Today: 0.0 kWh
+Maximum Power Today: 0.0 W
+Yield Yesterday: 0.0 kWh
+Maximum Power Yesterday: 0.0 W
+Day Sequence Number: 0
+Product ID: 0xA060
+
 ```
